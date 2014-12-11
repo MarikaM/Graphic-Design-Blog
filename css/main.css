@@ -1,4 +1,4 @@
-mediummedium
+
 
 @import "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css";
 
@@ -140,7 +140,7 @@ padding: 37px;
 	width: auto;
 	height:400px;
 	width: 400px;
-	padding:0 37px;
+	padding:0 50px;
 	position: relative;
 	overflow:hidden;
 	}
@@ -157,6 +157,13 @@ padding: 37px;
 /*text for images*/
 .content{
 	display: none;
+}
+
+
+/* small sub navigation*/
+
+ div .sub{
+	visibility: hidden;
 }
 
 
@@ -489,12 +496,21 @@ padding-bottom: 20px;
 	top:0;
 	right:0;
 	}
+	
+	
+	/*
+		HOMEPAGE code
+	*/
+
+section.body{
+	display: none;
+}
 
 
 
 
+/*
+	PROFILE detail
+*/
 
-
-
-
-
+body 
