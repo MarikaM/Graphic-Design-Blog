@@ -595,9 +595,9 @@ padding-bottom: 20px;
 */
 
 /*text for images*/
-.content{
+/*.content{
 	display: none;
-}
+}*/
 
 
 .items.events.ui .event.item {
@@ -615,7 +615,7 @@ padding-bottom: 20px;
 	float: none;
 	padding: 0;
 }
-
+/Volumes/Macintosh%20HD/Users/Marika/Desktop/micagraphicdesign.org-gh-pages%202/Graphic-Design-Blog/css/main.css
 .items.events.ui .event.item .content {
 	display: none;
 	position: absolute;
@@ -646,10 +646,23 @@ padding-bottom: 20px;
 	letter-spacing: 0.5px;
 }
 
-/* SUB SEGMENT*/
+.content{
+	display:none;
+	
+}
 
-/*.sub .formats,
-.menu.item{
+/* SUB SEGMENT*/
+.dropdown .menu{
+	list-style:none;
+	float:left;
+	display: inline-block;
+}
+ 
+ .dropdown .menu: hover{
+	 opacity: 1;
+	 cursor: pointer;
+ }
+/*.menu.menu bar .menu ui{
 	
 	float: left;
 	display:none;
@@ -665,3 +678,26 @@ nav .item .link:hover{
 nav .item .link:hover menu .item. link{
 	display: inline-block;
 }*/
+
+/* profile page, image resize*/
+figure img
+{
+	width: 500px;
+	height: auto;
+	float:left;
+}
+.profiles{
+	display:block;
+	float:right;
+}
+ .profile.card {
+	 position:relative;
+ }
+ 
+ footer .byline{
+	 appearance: normal;
+ }
+ 
+ footer .slide{
+	 position: relative;
+ }
